@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.21875"
+     inkscape:cx="320"
+     inkscape:cy="233.46479"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g4"
+         id="use5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g6"
+         id="use7" />
+    </clipPath>
+    <filter
+       id="mask-powermask-path-effect11_inverse"
+       inkscape:label="filtermask-powermask-path-effect11"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect11_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect11_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <g
+         inkscape:label="Clip"
+         id="use15">
+        <path
+           style="opacity:1;fill:#5ed281;fill-opacity:0.755983;stroke:#9b9c4c;stroke-width:8.835;stroke-opacity:1;paint-order:fill markers stroke"
+           d="m 411.93725,131.60544 38.66053,-22.32067"
+           id="path15" />
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5"
+       clip-path="url(#clipPath5)"
+       style="opacity:1"
+       transform="translate(1.9121761,7.0113123)">
+      <g
+         inkscape:label="Clip"
+         id="g4" />
+    </g>
+    <g
+       id="g7"
+       clip-path="url(#clipPath7)"
+       style="opacity:1"
+       transform="translate(1.9121761,7.0113123)">
+      <g
+         inkscape:label="Clip"
+         id="g6">
+        <path
+           id="path2-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:8.835;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           inkscape:transform-center-x="-1.778514e-06"
+           inkscape:transform-center-y="-38.428077"
+           d="M 409.81634 129.94377 L 254.23821 183.47502 L 99.165949 130.11759 C 126.92549 171.34724 154.6857 212.57545 182.44525 253.80509 C 155.28775 294.06185 128.13011 334.31789 100.97259 374.57463 L 251.69134 322.7133 L 409.85931 377.13713 C 382.12571 336.02639 354.3937 294.91779 326.66009 253.80705 C 354.45859 212.51954 382.25612 171.23129 410.05462 129.94377 L 409.81634 129.94377 z M 253.50579 197.43595 L 310.8515 254.78166 L 253.50579 312.12541 L 196.16009 254.78166 L 253.50579 197.43595 z " />
+        <path
+           style="opacity:1;fill:none;fill-opacity:0.755983;stroke:#000000;stroke-width:16.835;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+           d="m 64.792049,102.05912 188.845061,61.74647 191.5493,-57.69014 -96.4507,147.83098 88.33803,146.47888 -183.88733,-60.39436 -190.197177,62.19718 94.647887,-149.6338 z"
+           id="path16"
+           sodipodi:nodetypes="ccccccccc" />
+      </g>
+    </g>
+  </g>
+</svg>
