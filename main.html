@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Gnomelike</title>
+<style>
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+  button#main{
+	display: block;
+	width: 9vw;
+	height: 9vw;
+	border: 4px solid #ebdbb2;
+	border-radius: 50%;
+	color: black;
+	background-color: #ebdbb2;  
+	transition-duration: 0.2s;
+	font-size:2vw;
+	font-family:sans-serif;
+	font-weight: 700;
+	z-index: 1;
+  }
+  button#main:hover{
+	background-color: #ffaaaa;
+	border-color:#ffaaaa;
+}
+  .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  #dragbox {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid #7DAEA3;
+	background-color:#7DAEA3;
+	cursor: "grabbing";
+  }
+  #myCanvas {
+    background-image: url(./Resources/misty_forest.jpg);
+    background-size: 100%;
+  }
+  .circle {
+	  width: 55px;
+	  height: 55px;
+	  border-radius: 50%;
+}
+.material-icons {
+	font-size: 2vw;
+}
+.centerText {
+	text-align: center;
+}
+
+</style>
+</head>
+<body>
+	
+<canvas id="myCanvas" style="background-color: #222222"></canvas>
+
+<button type="button" id="main" class="center"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="#32302f" d="m12 2.6l-3 9.8l-7 7.5l10-2.3L22 20l-7-7.5z"/></svg>
+</svg></button>
+<div id="dragbox" class="center"><span class="material-icons center" id="cursorIcon" style="cursor: none; font-size: 2.5vw">cloud</span></div>
+
+<div class="center circle" id="homeIcon" style="transform: translate(-300%, -50%);background-color: #d7a657;"><span class="material-icons center">home</span></div>
+<div class="center circle" id="photoIcon" style="transform: translate(200%, -50%);background-color: #e96962;"><span class="material-icons center">photo_camera</span></div>
+<div class="center circle" id="groupIcon" style="transform: translate(-50%, 200%);background-color: #a8b665;"><span class="material-icons center">group</span></div>
+<div class="center circle" id="schoolIcon" style="transform: translate(-50%, -300%);background-color: #7DAEA3;"><span class="material-icons center">school</span></div>
+</body>
+<script src="main.js"></script>
+
+
+</html>
