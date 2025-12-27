@@ -36,7 +36,9 @@ document.addEventListener('mousemove', function(event) {
 		distance = Math.hypot(Math.abs(offsetX),Math.abs(offsetY))
 		offsetX = event.clientX - startX; 
 		offsetY = event.clientY - startY;
-		if (distance > 300 && previousDistance < 300) {
+		distFromCenter = Math.hypot(Math.abs(event.clientX - canvas.width / 2),Math.abs(event.clientY - canvas.height / 2))
+		if (distance > 300 && previousDistance < 300 && distFromCenter < 390) {
+			console.log(distFromCenter);
 			startX = event.clientX;
 			startY = event.clientY;
 			persistentLineX = startX;
